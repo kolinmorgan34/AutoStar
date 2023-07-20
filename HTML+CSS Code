@@ -1,0 +1,42 @@
+<html>
+<head>
+    <!-- Your head section content goes here -->
+</head>
+
+<body>
+    <div id="root">
+        <!-- Content of your webpage goes here -->
+    </div>
+
+    <!-- Your JavaScript code goes here -->
+    <script type="text/javascript">
+        // Your JavaScript code here
+        var WEBROOT = '/';
+
+        //--dynamic favicon
+        lightSchemeIcon = document.querySelector('link#light-scheme-icon');
+        darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
+
+        //Css matcher
+        matcher = window.matchMedia('(prefers-color-scheme: dark)');
+        matcher.addListener(onUpdate);
+        onUpdate();
+
+        function onUpdate() {
+            if (matcher.matches) {
+                lightSchemeIcon.remove();
+                document.head.append(darkSchemeIcon);
+            } else {
+                document.head.append(lightSchemeIcon);
+                darkSchemeIcon.remove();
+            }
+        }
+        //--
+    </script>
+
+    <!-- Your other JavaScript files go here, if any -->
+    <script src="/wp-dist/vendors-f21f196b.js"></script>
+    <script src="/wp-dist/app-1df9588d.js"></script>
+
+</body>
+</html>
