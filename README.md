@@ -8,7 +8,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on **AutoStar Transport Express**
+- 🔭 I’m currently working on <a href="https://www.autostartransport.com"><strong>AutoStar Transport Express</strong></a>
 
 - 🌱 I’m currently learning **SEO**
 
@@ -16,7 +16,7 @@
 
 - 🤝 I’m looking for help with **SEOs**
 
-- 📝 I regularly write articles on [https://www.schoolscrypto.com](https://www.schoolscrypto.com)
+- 📝 I regularly write articles on <a href="https://www.schoolscrypto.com">SchoolsCrypto</a>
 
 - 📫 How to reach me **404expertsse0@gmail.com**
 
